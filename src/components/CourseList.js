@@ -3,7 +3,7 @@ import CourseItem from './CourseItem';
 
 const CourseList = ({list}) => {
     return( 
-        <Grid item style={{    display: 'flex',flexDirection: 'row', flexWrap: 'wrap'  }}>
+        <Grid container style={{    display: 'flex',flexDirection: 'row', flexWrap: 'wrap'  }}>
             {
                 list.length !== 0 && [
                     list.map((course, index) => (
